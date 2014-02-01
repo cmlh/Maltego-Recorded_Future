@@ -1,0 +1,11 @@
+Source: maltego-recordedfuture
+Section: utils
+Priority: extra
+Maintainer: Christian Heinrich <christian.heinrich@cmlh.id.au>
+Homepage: https://github.com/cmlh/Maltego-Recorded_Future/ 
+Package: maltego-recordedfuture
+Architecture: amd64
+Version: 1.0.1
+Description: Maltego Local Transforms for Recorded Future
+ A set of Maltego Local Transforms (in python) which interact
+ with the https://recordedfuture.com API. 
