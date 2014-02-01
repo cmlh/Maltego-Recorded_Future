@@ -1,4 +1,3 @@
-Maltego-Recorded_Future
-=======================
+Refer to the [wiki on GitHub](https://github.com/cmlh/Maltego-Recorded_Future/wiki)
 
-Kali Linux Packaging of Recorded Future's Maltego Transforms
+[!(https://d2weczhvl823v0.cloudfront.net/cmlh/Maltego-Recorded_Future/trend.png)]
