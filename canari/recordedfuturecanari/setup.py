@@ -5,7 +5,7 @@ setup(
     author='Christian Heinrich',
     version='1.0',
     author_email='christian.heinrich@cmlh.id.au',
-    description='Recorded Future',
+    description='https://github.com/cmlh/Maltego-Recorded_Future/',
     license='GPL',
     packages=find_packages('src'),
     package_dir={ '' : 'src' },
@@ -14,7 +14,7 @@ setup(
         '' : [ '*.gif', '*.png', '*.conf', '*.mtz', '*.machine' ] # list of resources
     },
     install_requires=[
-        'canari=0.5'
+        'canari<=1.0'
     ],
     dependency_links=[
         # custom links for the install_requires
