@@ -22,7 +22,7 @@ __all__ = [
 ]
 
 @configure(
-    label='To Maltego Entity',
+    label='To Maltego Entity [Recorded Future]',
     description='Returns Maltego Entities [Recorded Future]',
     uuids=[ 'recfut.RFEventExpand' ],
     inputs=[ ('Recorded Future', RFEvent ) ],
