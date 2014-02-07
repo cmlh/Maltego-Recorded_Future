@@ -50,6 +50,7 @@ class RFCSV(RecfutEntity):
 @EntityField(name='rfevent', propname='rfevent', displayname='Recorded Future - Event Cluster ID')
 @EntityField(name='eid', propname='eid', displayname='Entity ID')
 @EntityField(name='etype', propname='etype', displayname='Event Type')
+@EntityField(name='title', propname='title', displayname='Event Title')
 @EntityField(name='starttime', propname='starttime', displayname='Start Time')
 @EntityField(name='stoptime', propname='stoptime', displayname='Stop Time')
 @EntityField(name='fragment', propname='fragment', displayname='Fragment')
@@ -58,6 +59,7 @@ class RFCSV(RecfutEntity):
 @EntityField(name='count', propname='count', displayname='Count')
 @EntityField(name='firstpublished', propname='firstpublished', displayname='First Published')
 @EntityField(name='lastpublished', propname='lastpublished', displayname='Last Published')
+@EntityField(name='sourcecount', propname='sourcecount', displayname='Source Count')
 @EntityField(name='pos_sentiment', propname='possentiment', displayname='Positive Sentiment')
 @EntityField(name='neg_sentiment', propname='negsentiment', displayname='Negative Sentiment')
 class RFEvent(RecfutEntity):

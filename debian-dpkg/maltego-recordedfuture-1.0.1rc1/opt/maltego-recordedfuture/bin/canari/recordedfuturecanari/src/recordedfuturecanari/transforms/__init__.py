@@ -11,6 +11,7 @@ __email__ = 'christian.heinrich@cmlh.id.au'
 __status__ = 'Production'
 
 __all__ = [
+    'rf_csv_maltegoload',
     'rf_expand_event',
     'rf_ent2eve',
     'common',
