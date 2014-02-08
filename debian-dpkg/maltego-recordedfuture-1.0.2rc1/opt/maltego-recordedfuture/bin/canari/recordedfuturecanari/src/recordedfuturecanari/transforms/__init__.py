@@ -13,7 +13,7 @@ __status__ = 'Production'
 __all__ = [
     'rf_csv_maltegoload',
     'rf_expand_event',
-    'rf_ent2eve',
+    # 'rf_ent2eve',
     'common',
     'rf_resolve_company'
 ]
