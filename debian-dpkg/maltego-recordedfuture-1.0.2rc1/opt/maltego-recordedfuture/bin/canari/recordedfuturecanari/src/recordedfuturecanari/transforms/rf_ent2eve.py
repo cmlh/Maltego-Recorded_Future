@@ -26,7 +26,7 @@ __all__ = [
     label='To Event [Recorded Future]',
     description='Returns a Recorded Future Company Event(s)',
     uuids=[ 'recfut.RFEntityExpand' ],
-    inputs=[ ('Recorded Future', Company ) , ('Recorded Future' Organization) , ('Recorded Future' Position) , ('Recorded Future' Product) , ('Recorded Future' Technology) ],
+    inputs=[ ('Recorded Future', Company ), ('Recorded Future', Organization), ('Recorded Future', Position), ('Recorded Future', Product) , ('Recorded Future', Technology) ],
     debug=False
 )
 def dotransform(request, response):
